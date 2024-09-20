@@ -1,0 +1,107 @@
+body {
+  padding: 10px 20px;
+}
+.main-title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 0;
+}
+.main-header {
+  display: flex;
+}
+.header-img {
+  width: 65vw;
+  height: 80vh;
+  object-fit: cover;
+}
+.header-right {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+.header-right h1 {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+  line-height: 80px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: rgb(59, 7, 59);
+}
+.header-right button {
+  width: 150px;
+  padding: 12px 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(59, 7, 59, 0.747);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+.header-right button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 25px rgb(59, 7, 59);
+}
+/* Second Section Styling */
+.second-section {
+  display: flex;
+}
+.second-section-left {
+  width: 50vw;
+  height: 90vh;
+}
+.second-section-left p {
+  padding: 0 20px 0 0;
+  font-size: 15px;
+  line-height: 25px;
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.second-section-right {
+  width: 50vw;
+  height: 45vh;
+}
+.decor-two,
+.decor-three {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.second-section-left h1 {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 70px;
+  line-height: 65px;
+  font-weight: lighter;
+  color: rgb(59, 7, 59);
+}
+/* Third Section Styling */
+.third-section {
+  height: 90vh;
+}
+.third-section-container {
+  display: flex;
+  justify-content: center;
+}
+.overall {
+  text-align: center;
+}
+.overall strong {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+.overall img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 15px;
+}
+.third-section h1 {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 3px;
+  color: rgb(59, 7, 59);
+  font-weight: 100;
+}
